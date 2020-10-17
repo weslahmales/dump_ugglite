@@ -25,6 +25,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from ugglite device
 $(call inherit-product, device/xiaomi/ugglite/device.mk)
+TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_NAME := lineage_ugglite
 PRODUCT_DEVICE := ugglite
@@ -42,5 +43,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRIVATE_BUILD_DESC="ugglite-user 7.1.2 N2G47H V9.1.2.0.NDFMIEI release-keys"
 
 # Set BUILD_FINGERPRINT variable
-#BUILD_FINGERPRINT := "Xiaomi/ugglite/ugglite:7.1.2/N2G47H/V9.1.2.0.NDFMIEI:user/release-keys"
-‌‌‎BUILD_FINGERPRINT := "xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/ugglite/ugglite:7.1.2/N2G47H/V9.1.2.0.NDFMIEI:user/release-keys"

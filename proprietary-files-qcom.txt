@@ -88,7 +88,7 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|b1c83ea1046e5e356e0b0a74b99d7a3
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|cbc75b554051298020506d85427a1aa70346fbd5
 vendor/lib64/vendor.qti.latency@2.0.so|15e50ce40e210993343406947dd2c959920f40c8
 
-# DPM - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# DPM - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
 bin/dpmd|1b38829a7faf33d5cbdc195d703f99384c20c9f4
 etc/dpm/dpm.conf|5f19d3984b5291ac956552bda2a84c10c535df0a
 etc/init/dpmd.rc|52ca6ad920a1804e4ff608113cece063730f5e0c
@@ -106,8 +106,8 @@ vendor/bin/dpmQmiMgr|31e019a02d25a959a2edfe2c9a04ab958562bb67
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|2af88934e4039edaac842576a1861cbdfe39838b
 vendor/lib64/libdpmqmihal.so|4254cc9f10f6f3d990958c17f4e43d8e9e09c382
 
-# DRM and SEE - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/qseecomd|14eaa0752ac0eb2308708056d094a05d9e5129b8
+# DRM and SEE - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
+vendor/bin/qseecomd|8ba233a028eec55d2f57ed7c85c6751e8f5c5d16
 vendor/lib64/libQSEEComAPI.so|1e695dcc9197c685c294d426822d2cb4e4c9c592
 vendor/lib64/libdrmfs.so|e20cc71ac84a7998626e600f4dd9dfe356a1436a
 vendor/lib64/libdrmtime.so|4efeb1449809aa172e68fe5bf5aa68be0f21387d
@@ -185,7 +185,7 @@ vendor/lib64/libsc-a3xx.so|b5adb05d08af30107dcb7cad11abf447322235c8
 vendor/lib/egl/eglsubAndroid.so|47e624dc5dce36d730551090c708dd1aa7f83fc9
 vendor/lib64/egl/eglsubAndroid.so|2da54c43577e048f89a5eb16c52a63fc5d2629a5
 
-# Graphics - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# Graphics - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
 vendor/lib/libadreno_utils.so|f6fd2917558a00aef9196ee815fd8f9b33b91ab5
 vendor/lib/libbccQTI.so|2876950b59585cf4ed60141c87b5f42bc84184aa
 vendor/lib/libC2D2.so|1a555aae15adb00b0cc0b43e14136956c0cd2c87
@@ -211,7 +211,7 @@ vendor/lib64/librs_adreno_sha1.so|35c26aecafd9a12d84ff6f89b1891699c19eb88f
 vendor/lib64/librs_adreno.so|5b853ae3692fc3d8cf7c5b63d45320533c194cde
 vendor/lib64/libRSDriver_adreno.so|eb72d1cabfb31ee3362c9832a40b265e42858dc9
 
-# Graphics (HDR) - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# Graphics (HDR) - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
 vendor/lib/libhdr_tm.so|8060a5d9ed0283c7b89716165ba8af4b86ef0210
 vendor/lib64/libhdr_tm.so|df15d487e73560f81017bcf4a73c28c9697b1ed9
 
@@ -271,13 +271,13 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so|5862ab34c0d040dba63eced727146dd233cf
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f4eef520bbf98e6e1ac8697ef7eef0109487dba1
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
 
-# Keymaster - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# Keymaster - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
 vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|f71f1439c9c356ce05d88b876253b4e3dcb10f4b
 
-# Listen - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# Listen - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
 vendor/lib/hw/sound_trigger.primary.msm8953.so:vendor/lib/hw/sound_trigger.primary.msm8937.so|0e716aae6fe6fc4a8b9553953765f64614647e7d
 vendor/lib/libadpcmdec.so|eeaef8dd6cad3da613860bb263f192cda56c60b6
-vendor/lib/libsmwrapper.so|58dcf09adcbe6c851417e1569a120ac2e5e64a9d
+vendor/lib/libsmwrapper.so|3ba2c53973436a805dc32395af83129d1b984dca
 
 # Media - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 -vendor/lib/libgpustats.so|83d8856717923ab389aecf17445e33fc21b90afc
@@ -321,7 +321,7 @@ vendor/lib64/libqti-perfd.so|96806732f4e5f8c25ba2e12a3a939fc2889c7341
 vendor/lib64/libqti-util.so|30dc90c1636fd100a8e101dfa659e0b7299ff813
 vendor/lib64/vendor.qti.hardware.perf@1.0.so|d54135d5ee902056acc86d8edd64d6338235c9f6
 
-# Peripheral manager - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# Peripheral manager - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
 vendor/bin/pm-proxy|56e9bdaa39270aa4456c9995a8a9e4618ba616a6
 vendor/bin/pm-service|7cbca1671529a805177f11f3f72defdbbe48a61c
 vendor/lib64/libperipheral_client.so|e2fbf94c589dbf8ae6c544a34441783ae9db3a08
@@ -411,18 +411,18 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|f3a3051e4a904268
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|ab552724f7d723a70a4e730dba52ab220d33a33e
 vendor/radio/qcril_database/qcril.db|f25a9215fcc2445e73d1aa0b7ef9bdbd97e33f56
 
-# Sensors - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/sensors.qti|3f6368e8d7484f5610fbf899dbe2a95e7cd6855e
+# Sensors - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
+vendor/bin/sensors.qti|cdd054e0fc3a39af4561d6fbb953d7a6a2efb202
 vendor/lib/hw/activity_recognition.msm8953.so:vendor/lib/hw/activity_recognition.msm8937.so|f9247646a5e2b28473753da06f832ae5f702f7c4
-vendor/lib/libsensor1.so|48727a05c1b91051d5ec53860124f1f1c0d8ca53
-vendor/lib/libsensor_reg.so|8ae3b9d1a54feb9f0af55a8fff50410f53660318
-vendor/lib/libsensor_user_cal.so|df85342393b56994b4f4b4c33aad97928bc6f023
-vendor/lib/sensors.ssc.so|c4b5ee167e5b06fde7143007b87ea5dbe90b0565
+vendor/lib/libsensor1.so|1ea8cc3968d77ccfc116b30a36cf03ffda0d1338
+vendor/lib/libsensor_reg.so|05a6945627710edc3db074ca523a8e178b2a3e95
+vendor/lib/libsensor_user_cal.so|d86ae521c74f9a65cafc219f98d61c16059ad46b
+vendor/lib/sensors.ssc.so|ec4ce020a8c61019896d4ff458fefe4537999e3f
 vendor/lib64/hw/activity_recognition.msm8953.so:vendor/lib64/hw/activity_recognition.msm8937.so|5531da4cf2451f899602fb7e3f0e80775bb7e5ff
-vendor/lib64/libsensor1.so|48dedf69781fb146fc35e622f1c80a635530da22
-vendor/lib64/libsensor_reg.so|74659858f5abcfa0d8c826af2e2e46addc9f5f87
-vendor/lib64/libsensor_user_cal.so|92de798c64f9e23ca1069a5a4bec5895fafa9a22
-vendor/lib64/sensors.ssc.so|3d6eed945ab3ec2d91517cd6e9941df17a290445
+vendor/lib64/libsensor1.so|03efb9648624844c5bc962a7e5dda7691372cd89
+vendor/lib64/libsensor_reg.so|e48d096044cda0d9e0dac3d3442e9f5d396862e8
+vendor/lib64/libsensor_user_cal.so|3965ea663c25ee07897ef003a13b94f0addde8ab
+vendor/lib64/sensors.ssc.so|dabcea6d758a88dfabd1837fa4bba9c6085ee465
 
 # Thermal - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
 vendor/bin/thermal-engine|e128108fdd20b3b1dfeba8d25be95cf6977eec4e
@@ -430,15 +430,15 @@ vendor/lib/libthermalclient.so|390eda2d80df6825c09eb504f0630650ea2d30f7
 vendor/lib64/libthermalclient.so|796c3e071fe9d6fa57598e1205a762cb55720f88
 vendor/lib64/libthermalioctl.so|5c126fa39bd8fbdb456c661be36e16ae5c6c3ec0
 
-# Time services - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
+# Time services - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
 -vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
-vendor/bin/time_daemon|bc58af8ed0cc94708aa75372565f4251991ab123
+vendor/bin/time_daemon|d67f1c50583b5efca0f5baea00a51056a798b7f8
 vendor/lib64/libtime_genoff.so|8f4c1f9ace6af463b241b130d6872b5d39cc7b2a
 
-# Widevine - from daisy - PKQ1.180917.001.V10.0.1.0.PDLMIFJ
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine|9743c4ecd0fb8773795bcbfbb406f25616c04129
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
-vendor/lib64/libwvhidl.so|a3444ac0deb8144a08ba2ed1dad2f2369096c7af
+# Widevine - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine|0c29d9ac41ec57bb44b969d3b8d9bf2c6be7dc0b
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|458dd241f5f8536eccb57f012b3eba0061736e8e
+vendor/lib64/libwvhidl.so|5930e4df50729b0711d212c920175514c83a1eda
 
-# Wi-Fi - from tissot PKQ1.180917.001
+# Wi-Fi - from Daisy - PKQ1.180917.001-V10.0.13.0.PDLMIXM
 vendor/bin/wcnss_service|f8ecd38a41b6b7f832380b489e0c9804c34174d8
